@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         TornQuickStock
 // @namespace    https://github.com/Rowage3/TornQuickStock
-// @version      0.1.0
+// @version      0.1.1
 // @description  One-click preset buy and sell buttons on the stock market.
 // @author       Rowage [3926289]
 // @match        https://www.torn.com/page.php?sid=stocks*
@@ -245,6 +245,7 @@
 #tqs-bar .tqs-buy{color:#6fbf4b!important}
 #tqs-bar .tqs-sell{color:#e5554f!important}
 #tqs-bar .tqs-status{margin-top:6px;min-height:16px;font-size:12px}
+#tqs-bar .tqs-status:empty{display:none}
 #tqs-bar .tqs-ok{color:inherit}
 #tqs-bar .tqs-bad{color:#e5554f}
 #tqs-bar .tqs-editor{margin-top:8px}
